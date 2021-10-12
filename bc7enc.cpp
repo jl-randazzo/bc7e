@@ -397,6 +397,7 @@ static void strip_path(std::string& s)
 	}
 }
 
+#ifdef EXE
 int main(int argc, char *argv[])
 {
 	if (argc < 2)
@@ -687,3 +688,4 @@ int main(int argc, char *argv[])
 		
 	return failed ? EXIT_FAILURE : EXIT_SUCCESS;
 }
+#endif // EXE

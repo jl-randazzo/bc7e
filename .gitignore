@@ -1,0 +1,9 @@
+*avx.h
+*avx2.h
+*sse2.h
+*sse4.h
+*ispc.h
+
+bin/**
+x64/**
+.vs/**
